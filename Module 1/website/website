@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amari Daugherty's Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 0%;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <img src="C:\CMPS262\Snapinsta.app_431304441_1118259259187459_2331944657841460360_n_1080.jpg" alt="Amari Daugherty">
+    <h1>Amari Daugherty</h1>
+    <p>Welcome to my homepage!</p>
+
+    <h2>Interests</h2>
+    <ul>
+        <li>Gym</li>
+        <li>Basketball and Football</li>
+        <li>Content Creation</li>
+    </ul>
+
+    <h2>Courses - Spring 2024</h2>
+    <ul>
+        <li>CMPS362</li>
+        <li>CMPS262</li>
+        <li>MATH175</li>
+    </ul>
+
+    <h2>Contact Information</h2>
+    <p>Email: adaugh@pointpark.edu</p>
+    <p>Phone: 724-413-1839</p>
+    
+<?php
+
+?>  
+</body>
+</html>
+
