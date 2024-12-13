@@ -1,0 +1,119 @@
+/* General Page Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #d3d3d3, #f0f0f0);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+/* Chat Container */
+.chat-container {
+  width: 90%;
+  max-width: 500px;
+  background: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid #4caf50; /* Green fitness color */
+}
+
+/* Chat Header */
+.chat-container h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #4caf50; /* Fitness green */
+  background-color: #333;
+  padding: 15px;
+  margin: 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* Chat Messages */
+#messages {
+  padding: 20px;
+  height: 300px;
+  overflow-y: auto;
+  border-bottom: 2px solid #4caf50;
+  background: #f9f9f9;
+}
+
+.user-message {
+  color: #333;
+  background: #e0e0e0;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-align: left;
+  max-width: 70%;
+}
+
+.bot-message {
+  color: #fff;
+  background: #4caf50;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-align: left;
+  max-width: 70%;
+}
+
+/* Chat Form */
+#chat-form {
+  display: flex;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-top: 2px solid #4caf50;
+}
+
+#chat-form input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+#chat-form button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#chat-form button:hover {
+  background-color: #45a049;
+}
+
+/* Error Messages */
+.bot-message.error {
+  background: #f44336; /* Red for error */
+  color: #fff;
+}
+
+/* Fitness Theme Enhancements */
+.chat-container {
+  border-left: 5px solid #4caf50; /* Dynamic look */
+  border-right: 5px solid #4caf50;
+}
+
+#messages::-webkit-scrollbar {
+  width: 8px;
+}
+
+#messages::-webkit-scrollbar-thumb {
+  background-color: #4caf50;
+  border-radius: 10px;
+}
